@@ -1,0 +1,89 @@
+.task {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-edit,
+.task-view {
+    display: flex;
+    flex-direction: column;
+}
+
+.task-input,
+.task-textarea,
+.task-date {
+    margin-bottom: 12px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.task-input:focus,
+.task-textarea:focus,
+.task-date:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.task-button {
+    padding: 10px 20px;
+    margin: 4px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.save-button {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.save-button:hover {
+    background-color: #218838;
+}
+
+.edit-button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.edit-button:hover {
+    background-color: #0056b3;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+.task-title {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+}
+
+.task-description {
+    font-size: 1em;
+    margin-bottom: 8px;
+}
+
+.task-due-date {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 16px;
+}
+
+.task-buttons {
+    display: flex;
+    gap: 10px;
+}
