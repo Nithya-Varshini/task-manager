@@ -1,3 +1,36 @@
+# Task Management Application
+
+This project is a simple Task Management Application that allows users to create, read, update, and delete tasks. The front-end is built using React, and the back-end is implemented with Node.js and Express, deployed as Firebase Cloud Functions.
+
+## Features
+
+- View a list of tasks
+- Add new tasks with a title, description, and due date
+- Edit existing tasks
+- Delete tasks
+- Responsive design for both desktop and mobile devices
+
+## Technologies Used
+
+- Front-end: React, HTML, CSS, JavaScript
+- Back-end: Node.js, Express, Firebase Cloud Functions
+- Hosting: Firebase Hosting
+
+## Prerequisites
+
+- Node.js (v14 or above)
+- npm (v6 or above)
+- Firebase CLI
+
+## Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/task-management-app.git
+cd task-management-app
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +101,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
